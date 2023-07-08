@@ -58,4 +58,27 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
       gap: 50px;
     
 }
-    
+.footer-colams{
+   width: 50%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    background: hwb(22 89% 1%);
+    margin: 20px;
+    padding: 15px;
+}
+.social-icon{font-size: small;}
+ input[type="text"],textarea{
+    display: block;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+}
+
+ .btn{ background-color: rgb(241, 133, 0);
+       padding: 8px 20px;
+       border: none;
+       color: white;
+   }    
