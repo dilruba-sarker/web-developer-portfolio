@@ -1,0 +1,61 @@
+main{max-width:1140px;
+    margin: 0 auto;
+
+
+}
+
+main section {
+    margin: 100px;
+}
+
+.about{
+    padding: 130px;
+    border-radius: 30px;
+background: #FFF8F3;
+margin: 130px 0;
+
+
+}
+.about-info-container{
+    display: flex;
+    
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
+}
+.section-title{text-align: center;}
+.section-description{
+    padding: 30px 150px;
+}
+
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    width: 200px;
+    height: 250px;
+
+    padding: 30px;
+    
+    border-radius: 8px;
+background: #f8f0f0;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+.skill-description{
+    color: grey;
+}
+.education{
+  
+}
+.resu{display: flex;
+   
+      gap: 50px;
+    
+}
+    
