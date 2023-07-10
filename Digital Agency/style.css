@@ -1,0 +1,300 @@
+*{margin: 0px;
+padding: 0px;}
+
+    
+.nav-container{
+    display: flex;
+    background-color:gray ;
+    justify-content:space-around;
+    padding: 15px;
+}
+
+.menus{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    
+}
+li{margin-right:20px;
+    font-size: large;
+
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url("./images/background.jpg"),
+    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+
+
+}
+.bg-primary{color:red;}
+.banner-content {
+    text-align: center;
+}
+.banner-title{
+   
+    color: white;
+    font-size: 86px;
+    font-weight: 900;
+}
+.banner-description{
+     
+    font-size:22px;
+    color: white;
+    margin-bottom:10px;
+    padding: 10px;
+    width: 50%;
+    margin: auto
+   
+}
+.banner-button{
+    text-align: center;
+    
+}
+.btn1{
+    background-color: red;
+    padding: 15px;border: none;
+    color: white;font-size: larger;
+    margin-right: 10px;
+}
+.btn{
+    
+    padding: 15px;border: none;
+    color: rgb(9, 9, 9);font-size: larger;
+}
+.service-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/footer-bg.png"),
+    linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-left{
+    color: white;
+    width: 50%;
+    
+}
+.btn2{
+    padding: 15px 35px;;
+    font-size: 16px;
+    border: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+.service-title{font-size: 56px;
+
+    color:white;
+    font-weight: 600;};
+
+    .service-description{
+        font-size: 22px;
+        font-weight: 400px;
+        margin:10px;}
+       
+    
+    .ol{
+        font-size: 22px;
+        font-weight: 400px;
+        margin:20px;
+        
+        color: aliceblue;
+    }
+    .im-author{border-radius:75px;
+    margin-bottom: 20px;}
+    .author-details{color: white;
+        display: flex;
+   align-items: center;
+   justify-content: center; 
+    }
+    .name{color: white;}
+    .more-details{
+        padding: 15px 30px;
+        margin-left: 11px;
+        border-radius: 25px;
+        background-color: none;
+        border: 1px solid rgb(51, 48, 48);
+        color: rgb(245, 44, 44);
+    }
+    .icon{width:50px }
+    .box1{
+        width: 200px;
+        height: 220px;
+        border-radius: 10px;
+        background-color: azure;
+       text-align: center;
+       padding: 15px;
+    }
+ 
+     
+
+    
+
+.service-logo{
+    display: flex;
+    margin-top: 20px;
+
+    gap: 20px;
+}
+box1{
+    margin: 30px;
+    margin-bottom: 20px;
+}
+.design{
+    width:90%;
+    height: 220px;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: -45px;
+}
+.ph{
+    color: aliceblue;
+    width: 80px;
+    height: 70px;
+    padding: 20px;
+  
+   
+}
+.contract{
+    width: 90%;
+    height: 180px;
+    background-color:rgb(245, 44, 44);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top:-35px ;
+}
+.phone{ display: flex;
+     align-items: center; color: white; padding: 20px;
+     
+   }
+.con-details{padding: 30px; font-size: larger;}
+ .con2{ margin-right: 20px; 
+    font-size: large; 
+    padding: 10px 40px;
+    border-radius: 35px;
+    border: none;
+}
+.number{
+    font-size: 30px;
+    font-weight: 800px;
+}
+.vl {
+    border-left: 3px solid green;
+    height: 100px;
+  }
+
+ 
+
+  .blog-container{
+    width: 100%;
+  
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+   
+    
+    
+  }
+  .blog{
+    margin: 50px;
+    align-items: center;
+    padding: 30px;
+  }
+  .blog-description{
+   font-size: 22px;
+   font-weight: 400px;
+   padding: 20px
+  };
+  .title2{
+    font-size: 76px;
+    font-weight: 600px;
+  }
+  .box{
+    height: 320px;
+    width: 270px;
+    background-color: rgb(247, 247, 238);
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 5px;
+
+   
+  }
+  .bob-img{
+    width: 100%;
+    border-radius: 5px;
+ 
+  }
+
+  .box-con{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: -30px;
+  }
+  .h3{margin-top: 10px;
+    margin-bottom: 10px;
+     }
+
+     .copyright{  background-image: url("./images/footer-bg.png"), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+        color: white;
+     
+        width: 100%;
+        height: 60vh;
+        background-blend-mode: overlay;
+        }
+     .footer-container{
+      
+        
+        display: flex;
+        justify-content: space-around;
+       
+    
+     }
+     .flogo{
+        width: 300px;
+        padding: 20px;
+        margin: 5px;
+     }
+     .flinks{
+        margin-top: 60px;
+     }
+     .social-icon{
+        margin-top: 20px;
+        padding: 10px;
+       display: flex;
+       gap: 30px;
+      
+      
+     }
+
+     
+
+     
+
+
+
+
+
+
+     .sign{width: 700px; margin:auto ;
+        padding: 20px;
+        text-align: center;}
+        .v{margin-bottom: 5px; }
